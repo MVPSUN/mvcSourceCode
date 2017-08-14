@@ -45,7 +45,7 @@ namespace System.Web.WebPages
         }
 
         internal static void InitializeApplication(HttpApplication application, EventHandler onApplicationPostResolveRequestCache, EventHandler initialize)
-        {
+         {
             if (initialize != null)
             {
                 initialize(application, EventArgs.Empty);

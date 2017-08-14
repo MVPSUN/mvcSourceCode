@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -10,6 +11,7 @@ namespace mvcSourceCode.Controllers
     {
         public ActionResult Index()
         {
+            string dirname = AppDomain.CurrentDomain.SetupInformation.DynamicBase;
             return View();
         }
 

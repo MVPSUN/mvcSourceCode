@@ -24,6 +24,12 @@ namespace System.Web.Mvc
             RegisterArea(context);
         }
 
+        /// <summary>
+        /// isAssignableFrom 确定指定类型的实例是否可以分配给当前类型的实例。；isAssignableFrom针对class对象 
+        /// instanceof 是判断物品X是否是由模具A生产出来的；instanceof 针对实例
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
         private static bool IsAreaRegistrationType(Type type)
         {
             return

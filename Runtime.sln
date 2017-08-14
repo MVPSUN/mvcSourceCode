@@ -121,6 +121,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvcSourceCode", "mvcSourceC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvcSourceCode.Tests", "mvcSourceCode.Tests\mvcSourceCode.Tests.csproj", "{25E954CE-2534-472B-96B0-F6B36A7BA58C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Web-net_4_5", "src\System.Web\System.Web-net_4_5.csproj", "{B489C3DE-3ED3-4EDC-B42B-82B38E101857}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CodeAnalysis|Any CPU = CodeAnalysis|Any CPU
@@ -446,6 +448,12 @@ Global
 		{25E954CE-2534-472B-96B0-F6B36A7BA58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25E954CE-2534-472B-96B0-F6B36A7BA58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25E954CE-2534-472B-96B0-F6B36A7BA58C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B489C3DE-3ED3-4EDC-B42B-82B38E101857}.CodeAnalysis|Any CPU.ActiveCfg = Release|Any CPU
+		{B489C3DE-3ED3-4EDC-B42B-82B38E101857}.CodeAnalysis|Any CPU.Build.0 = Release|Any CPU
+		{B489C3DE-3ED3-4EDC-B42B-82B38E101857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B489C3DE-3ED3-4EDC-B42B-82B38E101857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B489C3DE-3ED3-4EDC-B42B-82B38E101857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B489C3DE-3ED3-4EDC-B42B-82B38E101857}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -504,5 +512,6 @@ Global
 		{B89DB196-DC97-46A9-92D3-C68A5312D727} = {C40883CD-366D-4534-8B58-3EA0D13136DF}
 		{7386295A-2AD3-45F6-AEEB-D56FAC3D8D68} = {A3D90EA1-399F-4EC2-9F4F-07B4B0627549}
 		{25E954CE-2534-472B-96B0-F6B36A7BA58C} = {A3D90EA1-399F-4EC2-9F4F-07B4B0627549}
+		{B489C3DE-3ED3-4EDC-B42B-82B38E101857} = {A9836F9E-6DB3-4D9F-ADCA-CF42D8C8BA93}
 	EndGlobalSection
 EndGlobal
